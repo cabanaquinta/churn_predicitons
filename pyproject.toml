@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ml-zoom-camp"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "ml_zoom_camp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.6.1"  # Updated to a newer version
+pandas = "^2.2.3"  # Updated to a more recent compatible version
+numpy = "1.26.4"
+flask = "^3.1.0"
+gunicorn = "^23.0.0"
+requests = "^2.32.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
